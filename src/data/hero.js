@@ -59,6 +59,9 @@ export const heroZine = {
     'API Design',
     'Performance',
     'Product Thinking',
+    'Gym',
+    'Music',
+    'Sports',
   ],
   toolsTitle: 'Tools',
   tools: [

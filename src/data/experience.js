@@ -1,7 +1,6 @@
 export const experience = [
   {
     id: 'intern-1',
-    company: 'Tech Company',
     role: 'Full-Stack Developer Intern',
     location: 'Remote',
     type: 'Internship',
@@ -11,7 +10,7 @@ export const experience = [
       'Collaborated on REST API endpoints with Node.js and MongoDB.',
       'Participated in code reviews and improved test coverage for critical paths.',
     ],
-    tech: ['React', 'Node.js', 'MongoDB', 'Git'],
+    tech: ['React', 'Node.js', 'MongoDB','Express','Tailwind CSS','JWT','LangChain','Prompt Engineering','Git'],
   },
   {
     id: 'gsa-1',
@@ -29,7 +28,7 @@ export const experience = [
   {
     id: 'freelance-1',
     company: 'Independent',
-    role: 'CSE Student',
+    role: 'free lancer',
     location: 'Remote',
     type: 'Freelance',
     dateRange: '2023 — Present',

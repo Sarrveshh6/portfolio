@@ -1,18 +1,18 @@
 export const certifications = [
   {
-    id: 'meta-fe',
-    name: 'Meta Front-End Developer',
-    issuer: 'Coursera / Meta',
-    date: '2024',
-    credentialId: 'ABC123',
-    verifyUrl: '#',
-  },
-  {
     id: 'apna-ml',
     name: 'Machine Learning',
     issuer: 'Apna College',
-    date: '2025',
+    date: '2026',
     credentialId: null,
+    verifyUrl: '#',
+  },
+  {
+    id: 'meta-fe',
+    name: 'Front-End Developer',
+    issuer: 'Coursera / Meta',
+    date: '2024',
+    credentialId: 'ABC123',
     verifyUrl: '#',
   },
   {
@@ -33,10 +33,18 @@ export const certifications = [
   },
   {
     id: 'google-it',
-    name: 'Google IT Support',
+    name: 'Google campus ambassador',
     issuer: 'Coursera',
     date: '2023',
     credentialId: null,
+    verifyUrl: '#',
+  },
+  {
+    id: 'Micrsoft Azure',
+    name: 'Azure AI Fundamentals',
+    issuer: 'Microsoft',
+    date: '2026',
+    credentialId: 'ABC123',
     verifyUrl: '#',
   },
 ];
