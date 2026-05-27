@@ -71,14 +71,7 @@ export const heroZine = {
   ],
   /** Polaroid slots — set `src` when you add images under public/images/hero/polaroids/ */
   polaroids: [
-    {
-      id: 'p1',
-      src: '/images/hero/polaroids/gym.png',
-      caption: 'Gym',
-      rotate: -5,
-      fit: 'cover',
-      imageRotate: 90,
-    },
+    { id: 'p1', src: '/images/hero/polaroids/gym.png', caption: 'Gym', rotate: -5, fit: 'cover' },
     { id: 'p2', src: '/images/hero/polaroids/bhu.png', caption: 'BHU', rotate: 3, fit: 'cover' },
     { id: 'p3', src: '/images/hero/polaroids/photoshoot.png', caption: 'Photoshoot', rotate: -2, fit: 'cover' },
   ],

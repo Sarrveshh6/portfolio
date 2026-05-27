@@ -14,6 +14,7 @@ export const rakshaShowcase = {
   },
   toolsLabel: 'Tech stack :)',
   tools: ['Python', 'Flask', 'Twilio API', 'JavaScript', 'HTML5', 'CSS3', 'REST APIs'],
+  preview: '/images/projects/raksha.png',
   placeholder: {
     label: 'Prototype preview',
     hint: 'Add screenshot — public/images/projects/raksha.png',

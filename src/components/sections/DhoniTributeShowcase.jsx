@@ -18,14 +18,26 @@ export default function DhoniTributeShowcase({ embedded = true }) {
           className="dhoni-visual-wrap h-full w-full"
         >
           <div className="dhoni-visual-frame">
-            <div className="dhoni-visual-inner">
-              <HiOutlinePhotograph className="h-10 w-10 opacity-30" />
-              <p className="mt-3 font-mono text-xs uppercase tracking-widest opacity-60">
-                {project.placeholder.label}
-              </p>
-              <p className="mt-2 max-w-[240px] text-center text-[11px] opacity-50">
-                {project.placeholder.hint}
-              </p>
+            <div
+              className={`dhoni-visual-inner ${project.preview ? 'dhoni-visual-inner--filled' : ''}`}
+            >
+              {project.preview ? (
+                <img
+                  src={project.preview}
+                  alt={`${project.title} page preview`}
+                  className="h-full w-full object-cover object-top"
+                />
+              ) : (
+                <>
+                  <HiOutlinePhotograph className="h-10 w-10 opacity-30" />
+                  <p className="mt-3 font-mono text-xs uppercase tracking-widest opacity-60">
+                    {project.placeholder.label}
+                  </p>
+                  <p className="mt-2 max-w-[240px] text-center text-[11px] opacity-50">
+                    {project.placeholder.hint}
+                  </p>
+                </>
+              )}
             </div>
           </div>
         </motion.div>

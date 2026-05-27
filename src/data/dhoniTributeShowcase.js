@@ -11,6 +11,7 @@ export const dhoniTributeShowcase = {
   highlight: 'Internship build · static front-end · responsive layout',
   toolsLabel: 'Built with :)',
   tools: ['HTML5', 'CSS3', 'JavaScript'],
+  preview: '/images/projects/dhoni-tribute.png',
   placeholder: {
     label: 'Page preview',
     hint: 'Add screenshot — public/images/projects/dhoni-tribute.png',

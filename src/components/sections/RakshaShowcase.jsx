@@ -89,14 +89,26 @@ export default function RakshaShowcase({ embedded = true }) {
           className="raksha-visual-wrap h-full w-full"
         >
           <div className="raksha-visual-frame">
-            <div className="raksha-visual-inner">
-              <HiOutlinePhotograph className="h-10 w-10 text-[#f5f0e6]/30" />
-              <p className="mt-3 font-mono text-xs uppercase tracking-widest text-[#f5f0e6]/50">
-                {project.placeholder.label}
-              </p>
-              <p className="mt-2 max-w-[240px] text-center text-[11px] text-[#f5f0e6]/40">
-                {project.placeholder.hint}
-              </p>
+            <div
+              className={`raksha-visual-inner ${project.preview ? 'raksha-visual-inner--filled' : ''}`}
+            >
+              {project.preview ? (
+                <img
+                  src={project.preview}
+                  alt={`${project.titleBlocks.join('')} app preview`}
+                  className="h-full w-full object-cover object-top"
+                />
+              ) : (
+                <>
+                  <HiOutlinePhotograph className="h-10 w-10 text-[#f5f0e6]/30" />
+                  <p className="mt-3 font-mono text-xs uppercase tracking-widest text-[#f5f0e6]/50">
+                    {project.placeholder.label}
+                  </p>
+                  <p className="mt-2 max-w-[240px] text-center text-[11px] text-[#f5f0e6]/40">
+                    {project.placeholder.hint}
+                  </p>
+                </>
+              )}
             </div>
           </div>
         </motion.div>

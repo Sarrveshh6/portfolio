@@ -77,14 +77,24 @@ export default function AlgovisionShowcase({ embedded = false }) {
           className="project-mockup-placeholder flex h-full w-full items-center justify-center"
         >
           <div className="project-mockup-laptop h-full max-h-[min(70vh,520px)] w-full max-w-[520px]" aria-hidden>
-            <div className="project-mockup-screen h-full min-h-[280px]">
-              <HiOutlinePhotograph className="h-10 w-10 text-white/25" />
-              <p className="mt-3 font-mono text-xs uppercase tracking-widest text-white/40">
-                {project.placeholder.label}
-              </p>
-              <p className="mt-2 max-w-[220px] text-center text-[11px] text-white/30">
-                {project.placeholder.hint}
-              </p>
+            <div className="project-mockup-screen h-full min-h-[280px] overflow-hidden p-0">
+              {project.preview ? (
+                <img
+                  src={project.preview}
+                  alt={`${project.title} app preview`}
+                  className="h-full w-full object-cover object-top"
+                />
+              ) : (
+                <>
+                  <HiOutlinePhotograph className="h-10 w-10 text-white/25" />
+                  <p className="mt-3 font-mono text-xs uppercase tracking-widest text-white/40">
+                    {project.placeholder.label}
+                  </p>
+                  <p className="mt-2 max-w-[220px] text-center text-[11px] text-white/30">
+                    {project.placeholder.hint}
+                  </p>
+                </>
+              )}
             </div>
           </div>
           <div className="project-mockup-sticker" aria-hidden />

@@ -29,7 +29,7 @@ export const projects = [
     year: '2024',
     featured: false,
     showcaseOnly: true,
-    thumbnail: '/images/projects/mockmaster.webp',
+    thumbnail: '/images/projects/mockmaster.png',
     tech: ['React', 'Node.js', 'Express', 'MongoDB', 'OpenAI API', 'Tailwind CSS', 'JWT'],
     liveUrl: 'https://mockmasterr.onrender.com',
     githubUrl: 'https://github.com/Sarrveshh6/MOCKMASTER',

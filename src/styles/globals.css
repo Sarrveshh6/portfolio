@@ -566,6 +566,12 @@
     background: rgba(0, 0, 0, 0.35);
   }
 
+  .project-mockup-screen:has(img) {
+    border-style: solid;
+    border-color: rgba(167, 139, 250, 0.25);
+    background: #0a0a12;
+  }
+
   .project-mockup-sticker {
     position: absolute;
     right: 0;
@@ -695,6 +701,7 @@
     display: flex;
     width: 100%;
     max-width: 420px;
+    min-height: 280px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -703,6 +710,12 @@
     padding: 40px 24px;
     text-align: center;
     color: rgba(26, 26, 26, 0.55);
+  }
+
+  .mockmaster-visual-inner--filled {
+    padding: 0;
+    border-style: solid;
+    overflow: hidden;
   }
 
   /* Verified Learning — dark grid + polaroid course cards */
@@ -978,6 +991,7 @@
     display: flex;
     width: 100%;
     max-width: 380px;
+    min-height: 280px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -985,6 +999,13 @@
     background: rgba(0, 0, 0, 0.08);
     padding: 40px 24px;
     text-align: center;
+  }
+
+  .raksha-visual-inner--filled {
+    max-width: 100%;
+    padding: 0;
+    border-style: solid;
+    overflow: hidden;
   }
 
   /* MS Dhoni tribute — pinch of dark blue */
@@ -1131,6 +1152,7 @@
     display: flex;
     width: 100%;
     max-width: 420px;
+    min-height: 280px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -1139,6 +1161,12 @@
     padding: 40px 24px;
     text-align: center;
     color: rgba(21, 34, 56, 0.55);
+  }
+
+  .dhoni-visual-inner--filled {
+    padding: 0;
+    border-style: solid;
+    overflow: hidden;
   }
 
   /* Gau_Gyaan — pinch of green */

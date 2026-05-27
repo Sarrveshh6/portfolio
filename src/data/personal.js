@@ -45,7 +45,7 @@ export const heroCopy = {
   nameLine: 'Sarvesh Kumar Singh',
   bio: [
     'I build full-stack web applications where performance, clarity, and craft meet. From system design to pixel-level UI, I care about how products feel as much as how they work.',
-    'I created MOCKMASTER — an AI-powered mock test platform — and ship projects end-to-end. My work lives at the intersection of code, culture, and user experience.',
+    'I created various project during my graduation like MOCKMASTER — an AI-powered mock test platform — and ship projects end-to-end. and currently building other projects like  a AI-powered F1 race predictor . My work lives at the intersection of code, culture, and user experience.',
     'Currently open to full-time roles and freelance collaborations across India and remote.',
   ],
   portrait: {
@@ -65,7 +65,7 @@ export const aboutCopy = {
   paragraphs: [
     "I'm a full-stack web developer who cares about both the code and the experience. I specialize in React, Node.js, and modern tooling to ship products that feel fast and intentional.",
     'Whether I am designing system architecture or refining hover transitions, I believe the details matter. I approach every project with product thinking — not just feature lists.',
-    'Currently open to full-time roles and freelance collaborations. Exploring AI integrations, performance engineering, and thoughtful UI.',
+    'Currently open to full-time roles and freelance collaborations. Exploring AI integrations,ML engineering, performance engineering, and thoughtful UI.',
   ],
   stats: [
     { value: 2, suffix: '+', label: 'Years Coding' },
@@ -88,4 +88,13 @@ export const marqueeItems = [
   'API Development',
   'User Experience',
   'Performance Optimization',
+  'ML Engineering',
+  'AI Engineering',
+  'API Development',
+  'User Experience',
+  'Performance Optimization',
+  'F1',
+  'Gym',
+  'Music',
+  'Sports',
 ];

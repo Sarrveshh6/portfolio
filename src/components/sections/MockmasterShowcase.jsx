@@ -19,14 +19,26 @@ export default function MockmasterShowcase({ embedded = true }) {
           className="mockmaster-visual-wrap h-full w-full"
         >
           <div className="mockmaster-visual-frame">
-            <div className="mockmaster-visual-inner">
-              <HiOutlinePhotograph className="h-10 w-10 opacity-30" />
-              <p className="mt-3 font-mono text-xs uppercase tracking-widest opacity-60">
-                {project.placeholder.label}
-              </p>
-              <p className="mt-2 max-w-[240px] text-center text-[11px] opacity-50">
-                {project.placeholder.hint}
-              </p>
+            <div
+              className={`mockmaster-visual-inner ${project.preview ? 'mockmaster-visual-inner--filled' : ''}`}
+            >
+              {project.preview ? (
+                <img
+                  src={project.preview}
+                  alt={`${project.title} app preview`}
+                  className="h-full w-full object-cover object-top"
+                />
+              ) : (
+                <>
+                  <HiOutlinePhotograph className="h-10 w-10 opacity-30" />
+                  <p className="mt-3 font-mono text-xs uppercase tracking-widest opacity-60">
+                    {project.placeholder.label}
+                  </p>
+                  <p className="mt-2 max-w-[240px] text-center text-[11px] opacity-50">
+                    {project.placeholder.hint}
+                  </p>
+                </>
+              )}
             </div>
           </div>
         </motion.div>
