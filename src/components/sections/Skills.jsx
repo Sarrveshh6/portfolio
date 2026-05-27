@@ -1,11 +1,11 @@
 import { motion } from 'framer-motion';
 import FadeIn from '../animations/FadeIn';
-import { HERO_PORTRAIT_SRC } from '../../data/hero';
 import {
   skillsBranding,
   skillsHeadline,
   skillTabs,
   skillsFooter,
+  SKILLS_PORTRAIT_SRC,
 } from '../../data/skillsPage';
 import { personal } from '../../data/personal';
 
@@ -55,9 +55,9 @@ export default function Skills() {
           <div className="skills-portrait-wrap">
             <div className="skills-portrait-jagged">
               <img
-                src={HERO_PORTRAIT_SRC}
+                src={SKILLS_PORTRAIT_SRC}
                 alt={`${personal.name} — skills portrait`}
-                className="h-full w-full object-cover object-[50%_20%]"
+                className="h-full w-full object-cover object-center"
               />
             </div>
           </div>

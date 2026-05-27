@@ -23,6 +23,11 @@ function PolaroidSlot({ polaroid }) {
             src={polaroid.src}
             alt={polaroid.caption || 'Portfolio moment'}
             className={`h-full w-full ${polaroid.fit === 'contain' ? 'object-contain bg-white' : 'object-cover'}`}
+            style={
+              polaroid.imageRotate
+                ? { transform: `rotate(${polaroid.imageRotate}deg) scale(1.15)` }
+                : undefined
+            }
           />
         ) : (
           <div className="flex h-full w-full flex-col items-center justify-center bg-[#e8e4dc] p-3 text-center">

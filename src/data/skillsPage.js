@@ -1,5 +1,8 @@
 import { personal } from './personal';
 
+/** Skills section portrait — public/images/skills/portrait.png */
+export const SKILLS_PORTRAIT_SRC = '/images/skills/portrait.png';
+
 /** Editorial skills section — branding, headline, bottom skill tabs */
 const nameParts = personal.name.split(' ');
 
