@@ -50,10 +50,10 @@ export const projects = [
     },
   },
   {
-    id: 'raksha',
-    slug: 'raksha',
+    id: 'nirbhaya',
+    slug: 'nirbhaya',
     number: '03',
-    title: 'RAKSHA',
+    title: 'NIRBHAYA',
     tagline: 'Women’s safety web app — emergency SOS alerts',
     description:
       'Sends emergency messages to trusted contacts during panic situations using Twilio and Python Flask, with location sharing and rapid alert flows.',

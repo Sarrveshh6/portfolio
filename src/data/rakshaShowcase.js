@@ -1,13 +1,13 @@
 /** RAKSHA project showcase — red editorial grid layout */
 
 export const rakshaShowcase = {
-  id: 'raksha',
+  id: 'nirbhaya',
   pill: 'Safety · Web App',
   eyebrow: 'Proyecto 03 / Women Safety',
-  titleBlocks: ['RAK', 'SHA'],
+  titleBlocks: ['NIR', 'BHAYA'],
   tagline: 'Safety first,\nhelp always.',
   description:
-    'RAKSHA is a women’s safety web app that sends emergency alerts to trusted contacts during panic or unsafe situations. Built with Python Flask and integrated with Twilio and other APIs for SMS, location sharing, and rapid SOS messaging.',
+    'NIRBHAYA is a women’s safety web app that sends emergency alerts to trusted contacts during panic or unsafe situations. Built with Python Flask and integrated with Twilio and other APIs for SMS, location sharing, and rapid SOS messaging.',
   sticker: {
     label: 'Emergency',
     text: 'SOS · Alert Fast',
