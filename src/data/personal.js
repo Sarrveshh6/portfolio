@@ -68,10 +68,10 @@ export const aboutCopy = {
     'Currently open to full-time roles and freelance collaborations. Exploring AI integrations,ML engineering, performance engineering, and thoughtful UI.',
   ],
   stats: [
-    { value: 2, suffix: '+', label: 'Years Coding' },
+    { value: 3, suffix: '+', label: 'Years Coding' },
     { value: 5, suffix: '+', label: 'Projects Shipped' },
-    { value: 3, suffix: '', label: 'Certifications' },
-    { value: 1, suffix: '', label: 'AI Product Launched' },
+    { value: 5, suffix: '', label: 'Certifications' },
+    { value: 2, suffix: '', label: 'AI Product Launched' },
   ],
   cta: { label: "Let's build something together", href: '#contact' },
 };

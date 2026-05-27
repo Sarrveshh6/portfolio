@@ -97,7 +97,7 @@ export const projects = [
     year: '2025',
     featured: false,
     showcaseOnly: true,
-    thumbnail: '/images/projects/gau-gyaan.png',
+    thumbnail: '🐄',
     tech: ['React', 'TypeScript', 'Vite', 'CNN', 'Machine Learning'],
     liveUrl: '#',
     githubUrl: 'https://github.com/Sarrveshh6/Gau_Gyaan',
