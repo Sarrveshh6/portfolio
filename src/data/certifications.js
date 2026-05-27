@@ -1,0 +1,42 @@
+export const certifications = [
+  {
+    id: 'meta-fe',
+    name: 'Meta Front-End Developer',
+    issuer: 'Coursera / Meta',
+    date: '2024',
+    credentialId: 'ABC123',
+    verifyUrl: '#',
+  },
+  {
+    id: 'apna-ml',
+    name: 'Machine Learning',
+    issuer: 'Apna College',
+    date: '2025',
+    credentialId: null,
+    verifyUrl: '#',
+  },
+  {
+    id: 'apna-mern',
+    name: 'Web Development (MERN Stack)',
+    issuer: 'Apna College',
+    date: '2025',
+    credentialId: null,
+    verifyUrl: '#',
+  },
+  {
+    id: 'fcc-rwd',
+    name: 'Responsive Web Design',
+    issuer: 'freeCodeCamp',
+    date: '2023',
+    credentialId: null,
+    verifyUrl: '#',
+  },
+  {
+    id: 'google-it',
+    name: 'Google IT Support',
+    issuer: 'Coursera',
+    date: '2023',
+    credentialId: null,
+    verifyUrl: '#',
+  },
+];
