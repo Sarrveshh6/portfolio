@@ -8,7 +8,8 @@ export const personal = {
   email: 'work.sarvesh77@gmail.com',
   linkedin: 'https://linkedin.com/in/sarvesh-kumar-singh-676777226/',
   github: 'https://github.com/Sarrveshh6',
-  resumePath: '/resume/YourName-FullStack-Developer-Resume.pdf',
+  resumePath: '/resume/SarveshKumarSingh-FullStack-Developer-Resume.pdf',
+  resumeDownloadName: 'SarveshKumarSingh-FullStack-Developer-Resume.pdf',
   availability: 'Open to Opportunities — Full-time & Freelance',
   meta: {
     title: 'Sarvesh Kumar Singh — Full-Stack Developer',
@@ -56,7 +57,11 @@ export const heroCopy = {
   },
   sticker: 'BUILT BY SARVESH',
   primaryCta: { label: 'View My Work', href: '#projects' },
-  secondaryCta: { label: 'Download Resume', href: personal.resumePath, download: true },
+  secondaryCta: {
+    label: 'Download Resume',
+    href: personal.resumePath,
+    download: personal.resumeDownloadName,
+  },
 };
 
 export const aboutCopy = {

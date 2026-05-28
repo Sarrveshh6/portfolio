@@ -62,7 +62,7 @@ export default function Navbar() {
               href={personal.resumePath}
               variant="secondary"
               size="sm"
-              download
+              download={personal.resumeDownloadName}
             >
               Resume
             </Button>
@@ -121,7 +121,12 @@ export default function Navbar() {
                 );
               })}
               <div className="mt-8 flex flex-col gap-3">
-                <Button href={personal.resumePath} variant="inverse" download>
+                <Button
+                  href={personal.resumePath}
+                  variant="inverse"
+                  download={personal.resumeDownloadName}
+                  onClick={handleNavClick}
+                >
                   Download Resume
                 </Button>
                 <Button href={isHome ? '#contact' : '/#contact'} variant="primary" onClick={handleNavClick}>

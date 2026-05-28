@@ -80,6 +80,10 @@ export const heroZine = {
   ],
   ctas: {
     primary: { label: 'View My Work', href: '#projects' },
-    secondary: { label: 'Download Resume', href: personal.resumePath, download: true },
+    secondary: {
+      label: 'Download Resume',
+      href: personal.resumePath,
+      download: personal.resumeDownloadName,
+    },
   },
 };
